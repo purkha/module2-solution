@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, Open Sans;
+	
+	overflow: hidden;
+}
+
+#page-header {
+	background-color: #2B73BA;
+	margin: 0 auto;
+	padding-top: 10px;
+
+}
+
+#logo {
+	background-color: blue;
+	background: linear-gradient(90deg, white, lightblue);
+	width: 50%;
+	float: left;
+	text-align: right;
+	height: 110px;
+	padding-top: 10px;
+	
+	
+}
+
+#site-name {
+	background: linear-gradient(-90deg, white, lightblue);
+	width: 50%;
+	float: right;
+	height: 110px;
+	padding-top: 10px;
+	
+}
+
+h1 {
+	color: #643215;
+	padding-left: 15px;
+}
+
+h2 {
+	color: #cc9900;
+	padding-left: 15px;
+}
+
+
+#site-name > p {
+	padding-left: 15px;
+	color: gray;
+}
